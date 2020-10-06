@@ -161,9 +161,15 @@ export default {
     }
 }
 </script>
-<style>
+<style lang="scss">
     .signup-card{
         max-width: 35%;
         width: 100%;
+
+        @media screen and (max-width: 700px){
+            max-width: 90%;
+            width: 100%;
+
+        }
     }
 </style>
